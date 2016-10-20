@@ -434,7 +434,9 @@ header {
 
 #header-form-for-client input[type='text'],
 #header-form-for-client textarea {
-    font: normal 15px/25px "Open Sans";
+    overflow: auto;
+    font: normal 15px "Open Sans";
+    lh
 }
 
 #header-form-for-client input[type='text'] {
@@ -442,7 +444,7 @@ header {
     float: left;
     width: 100%;
     margin-top: 35px;
-    padding-bottom: 2px;
+    padding-bottom: 4px;
     border-bottom: 1px solid #c7c7c7;
 }
 

@@ -9,12 +9,10 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/fonts.css">
         <link rel="stylesheet" href="css/t-buttons.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -44,9 +42,9 @@
                         <p class="description  text-alignment-x">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, fuga provident. Libero magni quibusdam labore ad iste saepe hic, maxime qui ipsum tempore beatae, volu tomi ptates        doloremque rerum aspernatur dolorum at!</p>
                         <form action="#" id="header-form-for-client">
                             <legend><span>Send</span> A Message</legend>
-                            <input type="text" placeholder="Your Name">
-                            <input type="text" placeholder="Your Email">
-                            <textarea name="message" placeholder="Your Message"></textarea>
+                            <input type="text" placeholder="Your Name" class="my-placeholder">
+                            <input type="text" placeholder="Your Email" class="my-placeholder">
+                            <textarea name="message" placeholder="Your Message" class="my-placeholder"></textarea>
                             <button><span>Send Message</span></button>
                         </form>
                     </div>
@@ -224,8 +222,14 @@
             </div>
         </div>
 
-        <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+        <!-- Scripts -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="libs/jquery-placeholder/jquery.placeholder.js"></script>
+
+
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
