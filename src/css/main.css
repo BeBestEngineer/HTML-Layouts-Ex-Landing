@@ -446,6 +446,7 @@ header {
     margin-top: 35px;
     padding-bottom: 4px;
     border-bottom: 1px solid #c7c7c7;
+    outline: none;
 }
 
 #header-form-for-client legend {
@@ -465,6 +466,7 @@ header {
     border: none;
     resize: none;
     border-bottom: 1px solid #c7c7c7;
+    outline: none;
 }
 
 #header-form-for-client button,
