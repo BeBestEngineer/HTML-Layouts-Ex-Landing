@@ -1,4 +1,4 @@
-# Elena landing page (пример вёрстки)
+# Smart Agency landing page (пример вёрстки)
 
 ## Описание
 
